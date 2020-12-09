@@ -1,0 +1,35 @@
+.navbar__nav {
+  height: 70px;
+}
+
+.navbar__items {
+  visibility: visible;
+}
+
+.navbar__item {
+  padding: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.navbar__item:hover {
+  color: #47ea4e;
+}
+
+.mobile-navbar {
+  left: -100%;
+  -webkit-transition: left .3s;
+  transition: left .3s;
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.hamburger {
+  display: none;
+}
+/*# sourceMappingURL=large.css.map */

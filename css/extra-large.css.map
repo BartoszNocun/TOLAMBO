@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/extra-large.scss"
+    ],
+    "names": [],
+    "file": "extra-large.css"
+}

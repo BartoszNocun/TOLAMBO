@@ -1,0 +1,35 @@
+.navbar {
+
+    &__nav {
+        height: 70px;
+    }
+
+    &__items {
+        visibility: visible;
+    }
+
+    &__item {
+        padding: 15px;
+        color: #ffffff;
+        font-size: 16px;
+        text-decoration: none;
+        transition: color .3s;
+
+        &:hover {
+            color:  #47ea4e;
+        }
+    }
+}
+
+.mobile-navbar {
+    left: -100%;
+    transition: left .3s;  
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.hamburger {
+    display: none;
+}
