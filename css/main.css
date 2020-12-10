@@ -73,10 +73,7 @@ html {
 }
 
 .navbar__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  visibility: collapse;
+  display: none;
 }
 
 .mobile-navbar {
