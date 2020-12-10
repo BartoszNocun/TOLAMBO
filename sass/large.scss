@@ -67,3 +67,14 @@
         margin: 0;
     }
 }
+
+//SERVICES
+.services-container {
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.service {
+    margin: 0 20px 70px;
+}

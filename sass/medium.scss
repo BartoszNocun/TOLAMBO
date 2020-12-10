@@ -12,3 +12,22 @@
         font-size: 28px;
     }
 }
+
+//SERVICES
+.service {
+    margin-bottom: 70px;
+    min-height: 240px;
+
+    &__icon {
+        font-size: 70px;
+    }
+
+    &__name {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    &__decription {
+        font-size: 20px;
+    }
+}
