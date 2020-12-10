@@ -24,14 +24,14 @@
         transition: color .3s;
 
         &:hover {
-            color:  $color-main;
+            color: $color-main;
         }
     }
 }
 
 .mobile-navbar {
     left: -100%;
-    transition: left .3s;  
+    transition: left .3s;
 }
 
 .logo {
@@ -49,7 +49,7 @@
     &__container {
         margin-left: 15px;
         width: 100%;
-        top: 50%; 
+        top: 50%;
         left: 30%;
         transform: translate(-50%, -30%);
         width: auto;
@@ -77,4 +77,34 @@
 
 .service {
     margin: 0 20px 70px;
+}
+
+//ABOUT
+.about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 45px 30px;
+    
+}
+
+.about-us {
+    max-width: 600px;
+    text-align: left;
+
+    &__title {
+        font-size: 58px;
+        
+    }
+
+    &__description {
+        font-size: 20px;
+
+    }
+}
+
+.first-half {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
 }
