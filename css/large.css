@@ -1,3 +1,8 @@
+.scroll-fix::before {
+  height: 70px;
+  margin-top: -70px;
+}
+
 .navbar__nav {
   height: 70px;
 }
@@ -34,6 +39,7 @@
 }
 
 .hero-img__container {
+  margin-left: 15px;
   width: 100%;
   top: 50%;
   left: 30%;
@@ -43,11 +49,12 @@
 }
 
 .hero-img__text {
-  font-size: 36px;
+  font-size: 38px;
+  letter-spacing: 2px;
   text-align: left;
 }
 
-.main-button {
+.main-button--hero-center {
   margin: 0;
 }
 /*# sourceMappingURL=large.css.map */

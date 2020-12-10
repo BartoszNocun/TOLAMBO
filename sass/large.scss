@@ -1,5 +1,10 @@
 @import 'colors';
 
+.scroll-fix::before {
+    height: 70px;
+    margin-top: -70px;
+}
+
 //NAVBAR
 .navbar {
 
@@ -42,19 +47,23 @@
 .hero-img {
 
     &__container {
+        margin-left: 15px;
         width: 100%;
-        top: 50%; //4
+        top: 50%; 
         left: 30%;
         transform: translate(-50%, -30%);
         width: auto;
     }
 
     &__text {
-        font-size: 36px;
+        font-size: 38px;
+        letter-spacing: 2px;
         text-align: left;
     }
 }
 
 .main-button {
-    margin: 0;
+    &--hero-center {
+        margin: 0;
+    }
 }

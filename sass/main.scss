@@ -10,12 +10,43 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth
+}
+
 .wrapper {
     margin: 0 auto;
     width: 100%;
     max-width: 1400px;
     height: 100%;
 }
+
+.scroll-fix::before {
+    content: '';
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+}
+
+.title-holder {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    border-bottom: 100px solid $color-main;
+    border-right: 60px solid transparent;
+    transform: rotateX(180deg);
+
+    &__text {
+        position: absolute;
+        line-height: 100px;
+        color: #ffffff;
+        text-shadow: 0px 0px 4px #808080;
+        text-transform: uppercase;
+        transform: rotateX(180deg);
+    }
+}
+
+
 
 //NAVIGATION
 .navbar {
@@ -70,6 +101,10 @@ body {
         color: #ffffff;
         text-decoration: none;
         transition: color .3s;
+
+        &:hover {
+            color: $color-main;
+        }
     }
 
     &--show {
@@ -170,14 +205,13 @@ body {
         margin: 0 auto 20px;
         color: #ffffff;
         font-size: 20px;
-        text-align: center;       
+        text-align: center;
     }
 }
 
 .main-button {
     padding: 15px 0;
     width: 180px;
-    margin: 0 auto;
     color: #ffffff;
     background: $color-main;
     border: 2px solid $color-main;
@@ -192,5 +226,9 @@ body {
     &:hover {
         color: $color-main;
         background: transparent;
+    }
+
+    &--hero-center {
+        margin: 0 auto;
     }
 }
