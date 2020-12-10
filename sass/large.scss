@@ -1,3 +1,6 @@
+@import 'colors';
+
+//NAVBAR
 .navbar {
 
     &__nav {
@@ -16,7 +19,7 @@
         transition: color .3s;
 
         &:hover {
-            color:  #47ea4e;
+            color:  $color-main;
         }
     }
 }
@@ -27,9 +30,31 @@
 }
 
 .logo {
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .hamburger {
     display: none;
+}
+
+
+//HEADER
+.hero-img {
+
+    &__container {
+        width: 100%;
+        top: 50%; //4
+        left: 30%;
+        transform: translate(-50%, -30%);
+        width: auto;
+    }
+
+    &__text {
+        font-size: 36px;
+        text-align: left;
+    }
+}
+
+.main-button {
+    margin: 0;
 }

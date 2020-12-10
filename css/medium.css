@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=medium.css.map */
+.hero-img__container {
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero-img__text {
+  font-size: 28px;
+}
+/*# sourceMappingURL=medium.css.map */

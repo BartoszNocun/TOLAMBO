@@ -20,7 +20,7 @@ body {
   background-color: #060606;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar__nav {
@@ -49,6 +49,7 @@ body {
   left: -100%;
   -webkit-transition: left .3s .2s;
   transition: left .3s .2s;
+  z-index: 2;
 }
 
 .mobile-navbar-container {
@@ -105,10 +106,6 @@ body {
   color: #ffffff;
   font-size: 22px;
   text-decoration: none;
-}
-
-.logo--color {
-  color: #47ea4e;
 }
 
 .hamburger {
@@ -180,5 +177,67 @@ body {
 .hamburger--active .hamburger__inner::after {
   -webkit-transform: translateY(-10px) rotate(-45deg);
           transform: translateY(-10px) rotate(-45deg);
+}
+
+.hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/hero-img_1920.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-img__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  width: 100%;
+  z-index: 1;
+}
+
+.hero-img__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.hero-img__text {
+  margin: 0 auto 20px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-button {
+  padding: 15px 0;
+  width: 180px;
+  margin: 0 auto;
+  color: #ffffff;
+  background: #47ea4e;
+  border: 2px solid #47ea4e;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px #000000;
+  -webkit-transition: color .4s, background .4s;
+  transition: color .4s, background .4s;
+}
+
+.main-button:hover {
+  color: #47ea4e;
+  background: transparent;
 }
 /*# sourceMappingURL=main.css.map */

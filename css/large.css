@@ -26,10 +26,28 @@
 }
 
 .logo {
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .hamburger {
   display: none;
+}
+
+.hero-img__container {
+  width: 100%;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  width: auto;
+}
+
+.hero-img__text {
+  font-size: 36px;
+  text-align: left;
+}
+
+.main-button {
+  margin: 0;
 }
 /*# sourceMappingURL=large.css.map */
