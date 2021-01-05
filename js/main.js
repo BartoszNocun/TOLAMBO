@@ -9,7 +9,35 @@ hamburger.addEventListener('click', handleClick);
 
 //slickJS
 $(document).ready(function () {
-    $('.your-class').slick({
+    $('.projects-carousel').slick({
         // setting - name: setting - value
+        autoplay: true,
+        arrows: false,
+        mobileFirst: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+
+            {
+                breakpoint: 1600,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 4 
+                }
+            }
+        ]
     });
 });
