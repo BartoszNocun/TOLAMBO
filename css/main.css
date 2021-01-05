@@ -23,11 +23,15 @@ html {
   max-width: 1600px;
 }
 
-.scroll-fix::before {
+.scroll-fix::before, .scroll-fix--white::before {
   content: '';
   display: block;
   height: 60px;
   margin-top: -60px;
+}
+
+.scroll-fix--white::before {
+  background-color: #fff;
 }
 
 .title-holder {
@@ -285,7 +289,7 @@ html {
 }
 
 #services {
-  background-color: black;
+  background-color: #000000;
 }
 
 .services-container {
@@ -382,5 +386,9 @@ html {
 .second-half img {
   width: 90%;
   max-width: 544px;
+}
+
+#portfolio {
+  background-color: #000000;
 }
 /*# sourceMappingURL=main.css.map */

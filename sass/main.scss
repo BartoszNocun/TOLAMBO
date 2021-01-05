@@ -31,6 +31,11 @@ html {
     margin-top: -60px;
 }
 
+.scroll-fix--white::before {
+    @extend .scroll-fix;
+    background-color: #fff;
+}
+
 .title-holder {
     display: flex;
     justify-content: center;
@@ -238,7 +243,7 @@ html {
 
 //SERVICES
 #services {
-    background-color:  black;
+    background-color:  #000000;
 }
 
 .services-container {
@@ -314,4 +319,9 @@ html {
         width: 90%;
         max-width: 544px;
     }
+}
+
+// PORTFOLIO
+#portfolio {
+    background-color: #000000;
 }
