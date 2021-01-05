@@ -399,5 +399,22 @@ html {
 .project__img {
   width: 90%;
   margin: auto;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.project__img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.project__description {
+  padding-top: 15px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

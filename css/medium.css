@@ -25,4 +25,19 @@
 .service__decription {
   font-size: 20px;
 }
+
+.project__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.project__description {
+  visibility: collapse;
+  -webkit-transition: visibility .15s;
+  transition: visibility .15s;
+}
+
+.project__img:hover ~ .project__description {
+  visibility: visible;
+}
 /*# sourceMappingURL=medium.css.map */

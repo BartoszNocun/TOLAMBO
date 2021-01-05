@@ -243,7 +243,7 @@ html {
 
 //SERVICES
 #services {
-    background-color:  #000000;
+    background-color: #000000;
 }
 
 .services-container {
@@ -328,9 +328,23 @@ html {
 
 .project {
     margin: 50px 0;
-}
 
-.project__img {
-    width: 90%;
-    margin: auto;
+    &__img {
+        width: 90%;
+        margin: auto;
+        cursor: pointer;
+        transition: transform .3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &__description {
+        padding-top: 15px;
+        font-size: 22px;
+        text-align: center;
+        color: #ffffff;
+    }
+
 }
