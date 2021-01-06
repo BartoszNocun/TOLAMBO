@@ -1,11 +1,15 @@
 const hamburger = document.querySelector('.hamburger');
 const mobileNav = document.querySelector('.mobile-navbar');
+const mobileNavItems = document.querySelector('.mobile-navbar-container');
 
 const handleClick = () => {
     hamburger.classList.toggle('hamburger--active');
     mobileNav.classList.toggle('mobile-navbar--show');
 }
 hamburger.addEventListener('click', handleClick);
+
+mobileNavItems.addEventListener('click', handleClick);
+
 
 //slickJS
 $(document).ready(function () {
