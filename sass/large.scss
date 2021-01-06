@@ -113,3 +113,28 @@
 .project {
     margin: 60px 0 50px;
 }
+
+//PRICING
+.pricing-container {
+    justify-content: space-evenly;
+}
+
+.price-box{
+    width: 250px;
+    height: 400px;
+
+    &__title {
+        font-size: 28px;
+    }
+
+    &__price {
+        font-size: 34px;
+    }
+
+    &__description {
+
+        i {
+            padding-right: 10px;
+        }
+    }    
+}
