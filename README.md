@@ -8,6 +8,7 @@ Simple, one-page website created by the future Junior Frontend developer. In thi
 * HTML
 * SASS
 * Flexbox
+* Slick
 
 ## Status
 Project is: _in progress_

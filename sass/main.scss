@@ -333,6 +333,8 @@ html {
         width: 90%;
         margin: auto;
         cursor: pointer;
+        border-radius: 5px;
+        box-shadow: #333333 0 0 8px 2px;
         transition: transform .3s;
 
         &:hover {

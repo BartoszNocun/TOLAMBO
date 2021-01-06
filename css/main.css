@@ -400,6 +400,9 @@ html {
   width: 90%;
   margin: auto;
   cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: #333333 0 0 8px 2px;
+          box-shadow: #333333 0 0 8px 2px;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
