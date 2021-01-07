@@ -1,5 +1,10 @@
+HEADER
+.hero-img {
+    background-image: url('../img/hero-img_1920.jpg');
+}
+
 //PRICING
-.price-box{
+.price-box {
     width: 320px;
     height: 500px;
 
@@ -9,5 +14,25 @@
 
     &__price {
         font-size: 38px;
-    } 
+    }
+}
+
+//MILESTONES
+
+.milestone-box {
+
+    &__number {
+        margin-bottom: 15px;
+        font-size: 50px;
+        
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    &__description {
+        font-size: 18px;
+    }
 }

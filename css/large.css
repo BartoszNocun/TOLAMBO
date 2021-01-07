@@ -113,6 +113,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding-bottom: 80px;
 }
 
 .price-box {
@@ -130,5 +131,20 @@
 
 .price-box__description i {
   padding-right: 10px;
+}
+
+.milestones-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 0 60px;
+}
+
+.milestone-box {
+  max-width: 500px;
 }
 /*# sourceMappingURL=large.css.map */

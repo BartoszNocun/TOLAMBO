@@ -117,6 +117,7 @@
 //PRICING
 .pricing-container {
     justify-content: space-evenly;
+    padding-bottom: 80px;
 }
 
 .price-box{
@@ -137,4 +138,16 @@
             padding-right: 10px;
         }
     }    
+}
+
+
+//MILESTONES
+.milestones-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0 60px;
+}
+
+.milestone-box {
+    max-width: 500px;
 }

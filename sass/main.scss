@@ -131,6 +131,10 @@ html {
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .hamburger__box {
@@ -185,7 +189,7 @@ html {
 .hero-img {
     position: relative;
     height: 100vh;
-    background-image: url('../img/hero-img_1920.jpg');
+    background-image: url('../img/hero-img_640.jpg');
     background-size: cover;
     background-position: center;
 
@@ -402,10 +406,58 @@ html {
     
 }
 
-.price-container {
+.price-box-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
     height: 40%;
+}
+
+//MILESTONES
+#milestones {
+    background-color: #000000;
+}
+
+.milestones-container {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 20px;
+}
+
+.m-first-half {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m-second-half {
+    @extend .m-first-half;
+}
+
+.milestone-box {
+    padding: 0 20px;
+    margin: 30px 0;
+    max-width: 400px;
+    color: #ffffff;
+
+    &__number {
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    &__name {
+        margin-bottom: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: 15px;
+        text-align: center;
+        color: #b3b3b3;
+    }
 }
