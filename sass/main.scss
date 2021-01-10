@@ -365,7 +365,7 @@ html {
     padding: 45px 0;
 }
 
-.price-box{
+.price-box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -404,7 +404,7 @@ html {
         box-shadow: #4d4d4d 0 0 10px 0;
     }
 
-    
+
 }
 
 .price-box-container {
@@ -529,3 +529,13 @@ html {
     }
 }
 
+//FOOTER
+footer {
+    background-color: #000000;
+
+    p {
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+}
