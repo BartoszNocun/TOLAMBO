@@ -16,10 +16,6 @@ html {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  max-width: 1400px;
-}
-
-.wrapper--1600 {
   max-width: 1600px;
 }
 
@@ -269,6 +265,7 @@ html {
 .main-button {
   padding: 15px 0;
   width: 180px;
+  font-size: 16px;
   color: #ffffff;
   background: #47ea4e;
   border: 2px solid #47ea4e;
@@ -289,6 +286,10 @@ html {
 }
 
 .main-button--hero-center {
+  margin: 0 auto;
+}
+
+.main-button--center {
   margin: 0 auto;
 }
 
@@ -555,5 +556,89 @@ html {
   font-size: 15px;
   text-align: center;
   color: #b3b3b3;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 45px 0;
+}
+
+.contact-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.contact-about__intro {
+  letter-spacing: 2px;
+  color: #b3b3b3;
+  margin-bottom: 15px;
+}
+
+.contact-about__title {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.contact-about__description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #b3b3b3;
+  text-align: center;
+}
+
+.contact-about__icons {
+  font-size: 30px;
+}
+
+.contact-about__icons i {
+  margin: 0 10px;
+  cursor: pointer;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.contact-about__icons i:hover {
+  color: #47ea4e;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.contact-form__input {
+  border: 2px solid black;
+  margin-bottom: 15px;
+  height: 24px;
+}
+
+.contact-form__textarea {
+  border: 2px solid black;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */

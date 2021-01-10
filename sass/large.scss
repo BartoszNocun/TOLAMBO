@@ -84,7 +84,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 45px 30px;
-    
+
 }
 
 .about-us {
@@ -93,7 +93,7 @@
 
     &__title {
         font-size: 58px;
-        
+
     }
 
     &__description {
@@ -120,7 +120,7 @@
     padding-bottom: 80px;
 }
 
-.price-box{
+.price-box {
     width: 250px;
     height: 400px;
 
@@ -137,7 +137,7 @@
         i {
             padding-right: 10px;
         }
-    }    
+    }
 }
 
 
@@ -150,4 +150,39 @@
 
 .milestone-box {
     max-width: 500px;
+}
+
+//CONTACT
+.contact-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: unset;
+    padding: 45px 0 60px;
+}
+
+.contact-about {
+    justify-content: unset;
+    align-items: unset;
+    margin: 0;
+
+    &__description {
+        text-align: unset;
+    }
+
+    &__icons {
+        i {
+            margin: 0 25px 0 0;
+        }
+    }
+
+}
+
+.contact-about {
+    max-width: 700px;
+    padding: 0 35px;
+}
+
+.contact-form {
+    max-width: 500px;
+    padding: 0 35px;
 }

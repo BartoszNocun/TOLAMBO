@@ -29,4 +29,16 @@ HEADER
 .milestone-box__description {
   font-size: 18px;
 }
+
+.contact-about__title {
+  font-size: 38px;
+}
+
+.contact-about__description {
+  font-size: 20px;
+}
+
+.contact-about__icons {
+  font-size: 34px;
+}
 /*# sourceMappingURL=extra-large.css.map */

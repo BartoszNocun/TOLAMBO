@@ -147,4 +147,46 @@
 .milestone-box {
   max-width: 500px;
 }
+
+.contact-container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding: 45px 0 60px;
+}
+
+.contact-about {
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  margin: 0;
+}
+
+.contact-about__description {
+  text-align: unset;
+}
+
+.contact-about__icons i {
+  margin: 0 25px 0 0;
+}
+
+.contact-about {
+  max-width: 700px;
+  padding: 0 35px;
+}
+
+.contact-form {
+  max-width: 500px;
+  padding: 0 35px;
+}
 /*# sourceMappingURL=large.css.map */

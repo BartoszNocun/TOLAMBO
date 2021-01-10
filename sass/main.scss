@@ -17,11 +17,7 @@ html {
 .wrapper {
     margin: 0 auto;
     width: 100%;
-    max-width: 1400px;
-
-    &--1600 {
-        max-width: 1600px;
-    }
+    max-width: 1600px;
 }
 
 .scroll-fix::before {
@@ -223,6 +219,7 @@ html {
 .main-button {
     padding: 15px 0;
     width: 180px;
+    font-size: 16px;
     color: #ffffff;
     background: $color-main;
     border: 2px solid $color-main;
@@ -241,6 +238,10 @@ html {
     }
 
     &--hero-center {
+        margin: 0 auto;
+    }
+
+    &--center {
         margin: 0 auto;
     }
 
@@ -276,7 +277,7 @@ html {
 
     &__decription {
         font-size: 18px;
-        color: #b3b3b3;
+        color: $main-gray;
     }
 }
 
@@ -300,7 +301,7 @@ html {
 
     &__intro {
         letter-spacing: 2px;
-        color: #b3b3b3;
+        color: $main-gray;
         margin-bottom: 20px;
     }
 
@@ -312,7 +313,7 @@ html {
     &__description {
         font-size: 18px;
         margin-bottom: 50px;
-        color: #b3b3b3;
+        color: $main-gray;
     }
 }
 
@@ -458,6 +459,73 @@ html {
     &__description {
         font-size: 15px;
         text-align: center;
-        color: #b3b3b3;
+        color: $main-gray;
     }
 }
+
+//CONTACT
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.contact-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 50px;
+
+    &__intro {
+        letter-spacing: 2px;
+        color: $main-gray;
+        margin-bottom: 15px;
+    }
+
+    &__title {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-size: 18px;
+        margin-bottom: 40px;
+        color: $main-gray;
+        text-align: center;
+    }
+
+    &__icons {
+        font-size: 30px;
+
+        i {
+            margin: 0 10px;
+            cursor: pointer;
+            transition: color .3s;
+
+            &:hover {
+                color: $color-main;
+            }
+        }
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+    &__input {
+        border: 2px solid black;
+        margin-bottom: 15px;
+        height: 24px;
+    }
+
+    &__textarea {
+        border: 2px solid black;
+        margin-bottom: 30px;
+
+    }
+}
+
