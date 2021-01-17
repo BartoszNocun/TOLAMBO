@@ -11,7 +11,7 @@ Simple, one-page website created by the future Junior Frontend developer. In thi
 * Slick
 
 ## Status
-Project is: _in progress_
+Project is: _finished_
 
 ## Contact
 Created by [Bartosz Nocuń](https://www.linkedin.com/in/bartosz-nocu%C5%84-6b226b193/) - feel free to contact me!
