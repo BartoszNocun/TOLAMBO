@@ -172,7 +172,7 @@
                         <h3 class="price-box__title">basic</h3>
                         <p class="price-box__price">900$</p>
 
-                        <div class="price-container">
+                        <div class="price-box-container">
                             <p class="price-box__description">
                                 <i class="fas fa-check"></i><span>Unlimited Support</span>
                             </p>
@@ -220,7 +220,7 @@
                         <h3 class="price-box__title">expert</h3>
                         <p class="price-box__price">2000$</p>
 
-                        <div class="price-container">
+                        <div class="price-box-container">
                             <p class="price-box__description">
                                 <i class="fas fa-check"></i><span>Unlimited Support</span>
                             </p>
@@ -299,16 +299,19 @@
                             organize and measure the best of our energies and skills, because that challenge is one that
                             we
                             are willing to accept one we are.</p>
-                        <p class="contact-about__icons"><i class="fab fa-vimeo-v"></i><i
-                                class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i
-                                class="fab fa-instagram"></i></p>
+                        <div class="contact-about__icons">
+                            <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                     <form class="contact-form">
-                        <label for="name">Name</label>
+                        <label for="name" class="contact-form__label">Name</label>
                         <input type="text" name="Name" id="name" required class="contact-form__input">
-                        <label for="email">Email</label>
+                        <label for="email" class="contact-form__label">Email</label>
                         <input type="email" name="Email" id="email" required class="contact-form__input">
-                        <label for="message">Message</label>
+                        <label for="message" class="contact-form__label">Message</label>
                         <textarea name="Message" id="message" cols="30" rows="10" required
                             class="contact-form__textarea"></textarea>
                         <button type="submit" class="main-button main-button--center">submit</button>

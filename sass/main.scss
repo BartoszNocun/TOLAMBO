@@ -338,7 +338,6 @@ html {
     &__img {
         width: 90%;
         margin: auto;
-        cursor: pointer;
         border-radius: 5px;
         box-shadow: #333333 0 0 8px 2px;
         transition: transform .3s;
@@ -499,6 +498,11 @@ html {
     &__icons {
         font-size: 30px;
 
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
         i {
             margin: 0 10px;
             cursor: pointer;
@@ -511,20 +515,31 @@ html {
     }
 }
 
+@mixin formStyle($marginB, $paddingX) {
+    padding: $paddingX 10px;
+    border-radius: 5px;
+    border: 2px solid $main-gray;
+    margin-bottom: $marginB;
+}
+
+
 .contact-form {
     display: flex;
     flex-direction: column;
     width: 80%;
 
+    &__label {
+        color: #000000;
+        padding-bottom: 5px;
+    }
+
     &__input {
-        border: 2px solid black;
-        margin-bottom: 15px;
-        height: 24px;
+        @include formStyle(15px, 5px);
     }
 
     &__textarea {
-        border: 2px solid black;
-        margin-bottom: 30px;
+        @include formStyle(30px, 10px);
+        resize: vertical;
 
     }
 }
